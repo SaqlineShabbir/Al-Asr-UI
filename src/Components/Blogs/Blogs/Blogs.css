@@ -1,0 +1,45 @@
+
+.blogs-text-main{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    padding-top: 150px;
+    
+}
+.pxx{
+    padding-inline: 200px;
+}
+.blogs-main{
+    display: grid;
+    grid-template-columns:repeat(3, 1fr);
+    padding-inline: 200px;
+}
+
+.pagination{
+    margin-inline:700px ;
+    margin-block: 40px;
+}
+.pagination button{
+    padding: 0 10px;
+    margin-right: 20px;;
+}
+.pagination .selected{
+    background-color:rgb(57, 57, 241);
+    color: white;
+}
+
+@media only screen and (max-width:688px){
+    .blogs-main{
+        display: grid;
+        grid-template-columns:repeat(1, 1fr);
+        padding-inline: 0px;
+    }
+    .pagination{
+        margin-left:150px ;
+        margin-block: 40px;
+    }
+    .pxx{
+        padding-inline: 20px;
+    }
+}
+
